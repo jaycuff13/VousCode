@@ -1,5 +1,5 @@
 /// chapter 2 problem set 
-
+// Comments: Overall good job. Make sure to use var, let, or const when declaring variables. 
 /// Exercise 1,2,3
 
 var wage = 15; 
@@ -59,12 +59,14 @@ console.log(result);
 /// booksperbox = 20;
 /// totalBooks = boxes * booksperbox;
 
+//In JavaScript, these variables need to be declared first. 
+//You just need to add var, let, or const before each of the variables.
 boxes = 10;
 booksperbox = 20;
 totalBooks = boxes * booksperbox;
 
 /// exercise 9 
-/// x has already been declared 
+/// x has already been declared (This is true since I reused variables. However, this is the only correct statement)
 /// == is an invalid assignment 
 /// 1234 = x is invalid assignment on left hand side 
 
@@ -74,6 +76,7 @@ totalBooks = boxes * booksperbox;
 ///1234 = v; 
 
 ///exercise 10
+//The logic is correct. Remember to use var/let/const when declaring variables
 shares = 1000 ;
 stock = 50;
 com = 1 ;
@@ -91,7 +94,9 @@ let x = 10;
 let y = 15;
 let z = 25;
 let tax = 10/100
-let price1 = x + tax;
+//To get the tax charged on the item we need to multiply the price by the tax and add it to the price
+//You can calculate this once on the subtotal.
+let price1 = x + tax; 
 let price2 = y + tax;
 let price3 = z + tax;
 let subtotal = x + y + z;
