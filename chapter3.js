@@ -1,9 +1,16 @@
 /// 1) What is a function? 
+<<<<<<< HEAD
 /// a regular binding where the value of that binding is a function. Help you encapsulate and make your code more generalizable and reusble 
 
 ///2) What is scope 
 ///     part of the program which the binding is visible. Where you can access your variables between global and local
 
+=======
+/// a regular binding where the value of that binding is a function
+
+///2) What is scope 
+///     part of the program which the binding is visible
+>>>>>>> aef73f215d8bb1a2475c8b8259e1649471ecc9d1
 
 ///3) What is the difference between a global variable and local variable?
 ///   Global variables can be called outside of the function whereas local variables can only be called in the function 
@@ -38,6 +45,7 @@ function goal (g,p,f){
     console.log(d)
 }
 console.log(goal(10000,1000,4))
+<<<<<<< HEAD
 
 ///9 amount/12 for each ingredient 
 
@@ -71,3 +79,5 @@ function budget(income,expenses,savings,nonessentials){
         console.log(e,s,n);
 }
 budget(10000,.5,.4,.1)
+=======
+>>>>>>> aef73f215d8bb1a2475c8b8259e1649471ecc9d1
