@@ -60,7 +60,16 @@ const { ZERO } = require("@drift-labs/sdk")
 
     ///6
     
-    
+    let x = Math.floor(Math.random() * 2);
+    console.log(x);
+       function getRandom(x){
+            if (x == 0){
+                console.log('heads')
+            }else{
+                console.log('tails')
+            }
+       }
+    getRandom()
     ///7
 
     function number(n){
